@@ -138,7 +138,7 @@ The portal includes a dedicated full-page AI chat experience at `/ai-chat`:
 |---|---|
 | **Streaming responses** | Real-time SSE streaming with typing indicator |
 | **GFM Markdown** | Tables, code blocks with copy button, ordered/unordered lists, task lists, strikethrough |
-| **Entity mentions** | `component:default/lobby-ai` auto-linked as clickable chips to catalog pages |
+| **Entity mentions** | `component:default/nivara-lobby` auto-linked as clickable chips to catalog pages |
 | **Suggested prompts** | Multilingual quick-start prompts (IT/EN) |
 | **Anti-hallucination** | Strict system prompt — answers only from catalog context, explicit refusal when unsure |
 | **Design tokens** | Consistent styling via centralized `tokens.ts` (colors, spacing, typography, radius, shadows) |
@@ -174,8 +174,8 @@ The portal automatically catalogs the **Nivara AI Platform** system. Each entity
 |---|---|---|---|
 | `nivara-ai-platform` | System | — | Enterprise AI PoC portfolio (5 components) |
 | `team-nivara` | Group | — | Core team: ndavol, Emad-Nivara, FioCola, vstoican |
-| `lobby-ai` | Component | React 19 · FastAPI · LiteLLM · Supabase | Italian legislative amendment analysis with Explainable AI |
-| `nivara-nina` | Component | React 18 · Supabase · Deno Edge Functions | AI needs assessment with DAG-based graph engine (58 nodes) |
+| `nivara-lobby` | Component | React 19 · FastAPI · LiteLLM · Supabase | Italian legislative amendment analysis with Explainable AI |
+| `nivara-navigator` | Component | React 18 · Supabase · Deno Edge Functions | AI needs assessment with DAG-based graph engine (58 nodes) |
 | `nivara-playground` | Component | Next.js 16 · Vercel AI SDK 6 · Supabase | Multi-provider AI testing showroom (10 models, 4 providers) |
 | `nivara-portal` | Component | Backstage · React · Node.js · PostgreSQL | This portal — RAG AI, RBAC, Tech Insights, TechDocs |
 | `otb-intelligence` | Component | React 18 · Supabase · Recharts · OpenAI | Open-to-Buy planning for luxury retail (10 modules, 30 canvas views) |
